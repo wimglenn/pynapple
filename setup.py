@@ -9,6 +9,10 @@ setup(
     author_email='hey@wimglenn.com',
     license='MIT',
     packages=['pynapple'],
+    scripts=[
+        'shell_scripts/script1.sh',
+        'shell_scripts/script2.sh',
+    ],
     zip_safe=False,
     python_requires=f'>=3.6',
 )
