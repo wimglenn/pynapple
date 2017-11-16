@@ -11,7 +11,7 @@ setup(
     packages=['pynapple'],
     include_package_data=True,
     package_data={
-        'pynapple': ['pynapple_package_data.dat'],
+        'pynapple': ['../pynapple_package_data.dat'],
     },
     zip_safe=False,
     python_requires=f'>=3.6',
