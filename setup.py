@@ -9,7 +9,7 @@ setup(
     author_email='hey@wimglenn.com',
     license='MIT',
     packages=['pynapple'],
-    # include_package_data=True,
+    include_package_data=True,
     package_data={
         'pynapple': ['pynapple_package_data.dat'],
     },
